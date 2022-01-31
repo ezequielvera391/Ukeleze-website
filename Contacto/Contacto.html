@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/dec46bdae0.js" crossorigin="anonymous"></script>
+
+
+
+	<title>Ukeleze - Clases de Ukelele</title>
+
+</head>
+<body>
+	<header>
+		<div class="container__menu">
+			<div class="logo">
+				<img src="Recursos/Ukulele-Logo.png">
+			</div>
+			<div class="menu">
+				<i class="fas fa-bars" id="btn-menu"></i>
+				<div id="back_menu"></div>
+				<nav id="nav">
+					<img src="Recursos/Ukulele-Logo.png">
+					<ul>
+						<li><a href="../index.html">Inicio</a></li>
+						<li><a href="../Clases/Clases.html">Clases</a></li>
+						<li><a href="../Ubicacion/Ubicacion.html">Ubicacion</a></li>
+						<li><a href="Contacto.html" id="Selected">Contacto</a></li>	
+					</ul>
+				</nav>
+			</div>	
+		</div>
+	</header>
+	<main>
+		<div class="container__cover">
+			<div class="cover">
+				<form class="formulario">
+					<h1 class="form__title">
+						¡Envianos un mensaje!
+					</h1>
+					<p class="form__paragraph">
+						¿Tienes alguna duda? No dudes en escribirnos, un representante nuestro se pondrá en contacto contigo.
+						o puedes visitar nuestras redes haciendo <a href="https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FUkeleze&e=ATPA4K5d23i3hL8VVAVYwVZh7ryQjxUWkVdawAo1uiJtH0NVLTKOAQnEst2SQ9K6h4-InTkN4crlryq2RVGx1w&s=1" target="_blank" class="form__link">Click Aquí</a>.
+					</p><br><br>
+					<div class="form__container">
+						<div class="form__group">
+							<form action="Clases/Clases.html">
+								<input type="text" id="name" class="form__input" placeholder=" ">
+								<label for="name" class="form__label">Nombre:</label>
+								<span class="form_line"></span>
+							</form>
+						</div>	
+						<div class="form__group">
+							<form action="Clases/Clases.html">
+								<input type="text" id="asunto" class="form__input" placeholder=" ">
+								<label for="asunto" class="form__label">Asunto:</label>
+								<span class="form_line"></span>
+							</form>
+						</div>
+						<div class="form__group">
+							<form action="Clases/Clases.html">
+								<input type="text" id="mail" class="form__input" placeholder=" ">
+								<label for="mail" class="form__label">Mail:</label>
+								<span class="form_line"></span>
+							</form>							
+						</div>
+						<div class="form__group">
+							<form action="Clases/Clases.html">
+								<textarea type="textarea" id="mensaje" class="form__input" placeholder=" "></textarea>
+								<label for="mensaje" class="form__label">Escriba aquí su mensaje</label>
+								<span class="form_line"></span>
+							</form>
+							<input type="submit" value="Enviar" id="enviar">
+						</div>
+					</div>	
+				</form>
+				<div class="imagen">
+					<img src="Recursos/Ukulele-Sound-Vector.png">
+				</div>
+			</div>	
+		</div>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
