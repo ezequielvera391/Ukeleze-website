@@ -6,11 +6,7 @@
 	font-family: 'Poppins', sans-serif;
 	font-family: 'Source Sans Pro', sans-serif;
 }
-/*body {
-	background-image: url(Recursos/pale-365.png);
-	background-position: right;
-	background-repeat: no-repeat;
-}*/
+
 body {
 	background-image: url(Recursos/pale-365.png);
 	background-position: left;
@@ -93,9 +89,8 @@ header {
 	margin: 80px 0px 80px 0px;
 
 	display: flex;
-	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 .container__cover .text {
 	padding-top: 60px;
@@ -126,22 +121,25 @@ header {
 	box-shadow: 1px 1px 30px -6px #57c671;
 
 }
+.imagen_mapa {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: -100px;
+
+}
 #mapa { 
-	min-height:150px; min-width:250px; height: 320px; width: 100%;
-	border-radius: 600px;
+	border: none;
+	min-height:150px; min-width:250px; height: 320px; width: 120%;
+	border-radius: 500px;
 	margin-top: 80px;
 	margin-bottom: 100px;
 	box-shadow: 1px 1px 30px -12px #57c671;
 	}
-#mapa2 {
-	display: none;
-}
-	 
-/*.container__cover .imagen  div {
 
-	max-width: 400px;
-	animation: move-vector 4s linear infinite;
-}*/
+
+	 
+
 
 @keyframes move-vector {
 	0%  {
@@ -171,7 +169,7 @@ header {
 
 	}
 	.container__cover {
-		/*padding-left: 40px;*/
+
 		background-position: -100px;
 	}
 
@@ -180,6 +178,10 @@ header {
 @media screen and (max-width:  1020px) {
 
 
+	.cover{
+		
+		flex-direction: column;
+	}
 
 	
 
@@ -187,31 +189,18 @@ header {
 		max-width: 600px;
 	}
 	#mapa {
-		display: none;
-	}
-	#mapa2 { 
 	display: flex;
-	min-height:150px; min-width:250px; height: 370px; width: 100%;
+	min-height:150px; min-width:250px; height: 300px; width: 100%;
 	border-radius: 600px;
 	padding: 0px;
 	margin-top: 80px;
-	margin-bottom: 100px;
-	/*box-shadow: 1px 1px 30px -12px #57c671;*/
+	margin-bottom: 20px;
 	}
 
 }
 
 @media screen and (max-width: 720px) {
 
-	/*.container__cover .imagen img {
-		display: none;
-	}*/
-	
-	/*.container__cover {
-		background-image: url("");
-		background-color: #9fc1e5;
-	}*/
-	
 	
 
 	.menu nav {

@@ -6,11 +6,7 @@
 	font-family: 'Poppins', sans-serif;
 	font-family: 'Source Sans Pro', sans-serif;
 }
-/*body {
-	background-image: url(Recursos/pale-365.png);
-	background-position: right;
-	background-repeat: no-repeat;
-}*/
+
 body {
 	background-image: url(Recursos/pale-365.png);
 	background-position: left;
@@ -159,7 +155,6 @@ header {
 
 	}
 	.container__cover {
-		/*padding-left: 40px;*/
 		background-position: -100px;
 	}
 	.container__cover .imagen img {
@@ -170,15 +165,9 @@ header {
 
 @media screen and (max-width:  1020px) {
 
-
-
-	
-
 	.container__cover .text {
 		max-width: 600px;
 	}
-
-
 }
 
 @media screen and (max-width: 720px) {
@@ -186,12 +175,6 @@ header {
 	.container__cover .imagen img {
 		display: none;
 	}
-	
-	/*.container__cover {
-		background-image: url("");
-		background-color: #9fc1e5;
-	}*/
-	
 	.menu nav {
 		position: fixed;
 		top: 0;
@@ -202,21 +185,15 @@ header {
 		z-index: 10;
 		right: -300px;
 		transition: all 300ms;
-	
-
-
 	}
-
 	.menu ul {
 
 		flex-direction: column;
 		margin-top: 40px;
-
 	}
 	.menu ul li {
 		margin-top: 40px;
 		margin-left: 0px;
-
 	}
 	.menu ul li a {
 		color: #bebebe;
@@ -226,14 +203,10 @@ header {
 	padding: 0px;
 	border-radius: none;
 	color: #8d27f8;
-
 	}
-
-	.menu nav img {
-	
+	.menu nav img {	
 	display: block;
 	width: 120px;
-
 	}
 	#back_menu {
 		position: fixed;
@@ -244,7 +217,6 @@ header {
 		background: rgba(0, 0, 0, 0.5);
 		display: none;
 	}
-
 	.menu #btn-menu {
 	width: 50px;
 	height: 50px;
@@ -261,6 +233,4 @@ header {
 	.menu #btn-menu:hover {
 		background: #c7e6f7;
 	}
-
-
 }
