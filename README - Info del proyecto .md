@@ -9,7 +9,7 @@ Puntos que tuve en cuenta:
 
 // La web sigue en desarrollo//
 Futuras actualizaciones preveen:
-- Agregar funcionalidad a los botones que estan desactivados en cada una de las secciones de la Web
-- Agregar funcionalidad al formulario de contacto para que sea posible para el usuario el envio de un mensaje de consulta.
-- Programar las validaciones del formulario de contacto para que en principio el usuario deba ingersar una direccion de mail valida y se vea obligado a rellenar los campos obligatorios.
+- <em>(AGREGADO)</em> Agregar funcionalidad a los botones que estan desactivados en cada una de las secciones de la Web
+- <em>(AGREGADO)</em> Agregar funcionalidad al formulario de contacto para que sea posible para el usuario el envio de un mensaje de consulta.
+- <em>(AGREGADO)</em> Programar las validaciones del formulario de contacto para que en principio el usuario deba ingersar una direccion de mail valida y se vea obligado a rellenar los campos obligatorios.
 - Agregar un footer con informacion personal y enlaces relacionados.
