@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="../style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
@@ -13,13 +13,13 @@
 	<title>Ukeleze - Clases de Ukelele</title>
 
 </head>
-<body>
+<body class="ubicacion">
 	<header>
 		<div class="container__menu">
 			<div class="logo">
 				<img src="Recursos/Ukulele-Logo.png">
 			</div>
-			<div class="menu">
+			<div class="menu" id="Menu_Ubi">
 				<i class="fas fa-bars" id="btn-menu"></i>
 				<div id="back_menu"></div>
 				<nav id="nav">
@@ -27,7 +27,7 @@
 					<ul>
 						<li><a href="../index.html">Inicio</a></li>
 						<li><a href="../Clases/Clases.html">Clases</a></li>
-						<li><a href="Ubicacion/Ubicacion" id="Selected">Ubicacion</a></li>
+						<li><a href="" class="select" id="Selected3">Ubicacion</a></li>
 						<li><a href="../Contacto/Contacto.html">Contacto</a></li>	
 					</ul>
 				</nav>
@@ -36,7 +36,7 @@
 	</header>
 	<main>
 		<div class="container__cover">
-			<div class="cover">
+			<div class="cover" id="Ubicacion_cover">
 				<div class="text">
 					<h1>
 						Conocé nuestra sede en Villa Devoto
@@ -45,7 +45,7 @@
 						En una muy buena ubicación a una cuadra de Av. Gral. Paz y de la intersección de las avenidas Beiro y Lope de Vega.<br>
 						Llegan los colectivos 107, 105, 108, 124, 53, 117, 28, 25, 80, entre otros. Y las lineas de trenes Urquiza y San Martin.
 					</p>					
-					<a href="../Contacto/Contacto.html"><input href="../Contacto/Contacto.html" type="button" value="Contactanos"></a>
+					<a href="../Contacto/Contacto.html"><input class="ubicacion_input" href="../Contacto/Contacto.html" type="button" value="Contactanos"></a>
 				</div>
 				<div class="imagen_mapa">
 					<iframe id="mapa" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-58.539190292358406%2C-34.616203898214884%2C-58.515243530273445%2C-34.60613757604114&amp;layer=mapnik&amp;marker=-34.611170889697334%2C-58.52721691131592" style="border: 1px solid black"></iframe>
@@ -54,6 +54,6 @@
 			</div>	
 		</div>
 	</main>
-	<script src="script.js"></script>
+	<script src="../script.js"></script>
 </body>
 </html>

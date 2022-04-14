@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="../style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
@@ -12,13 +12,13 @@
 	<title>Ukeleze - Clases de Ukelele</title>
 
 </head>
-<body>
+<body class="contacto">
 	<header>
 		<div class="container__menu">
 			<div class="logo">
 				<img src="Recursos/Ukulele-Logo.png">
 			</div>
-			<div class="menu">
+			<div class="menu" id="Menu_contacto">
 				<i class="fas fa-bars" id="btn-menu"></i>
 				<div id="back_menu"></div>
 				<nav id="nav">
@@ -27,15 +27,15 @@
 						<li><a href="../index.html">Inicio</a></li>
 						<li><a href="../Clases/Clases.html">Clases</a></li>
 						<li><a href="../Ubicacion/Ubicacion.html">Ubicacion</a></li>
-						<li><a href="Contacto.html" id="Selected">Contacto</a></li>	
+						<li><a href="Contacto.html" class="select" id="Selected4">Contacto</a></li>	
 					</ul>
 				</nav>
 			</div>	
 		</div>
 	</header>
 	<main>
-		<div class="container__cover">
-			<div class="cover">
+		<div class="container__cover" id="#Container_contacto">
+			<div class="cover" id="Contacto_cover">
 				<form id="form2" class="formulario">
 					<h1 class="form__title">
 						¡Envianos un mensaje!
@@ -109,7 +109,8 @@
 			</div>	
 		</div>
 	</main>
-	<script src="script.js"></script>
+	<script src="../script.js"></script>
+	<!--Los siguientes scripts corresponden al sistema de mails-->
 	<script src="script-mail.js"></script>
 	<script type="text/javascript" 
 			src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
